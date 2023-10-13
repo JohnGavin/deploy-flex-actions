@@ -4,6 +4,8 @@ docker-compose up -d
 docker-compose down
 docker ps
 
+docker exec -it  f1ac45c25165   /bin/bash
+
 export FLEX_IMAGE=rkrispin/flex_dash_env:dev.0.0.0.9000
 export TUTORIAL_WORKING_DIR=/Users/johngavin/Documents_GitHub/deploy-flex-actions
 export RSTUDIO_CONFIG_PATH=/Users/johngavin/.config/rstudio
